@@ -11,8 +11,8 @@ export const Board: Columns = {
 		items: [
 			{
 				id: uuidv4(),
-				title: "Admin Panel Front-end",
-				description: "Lorem ipsum dolor sit amet ..",
+				title: "Frontend Functionality to add task",
+				description: "Learnt Something New",
 				priority: "medium",
 				deadline: 50,
 				image: taskImage2,
@@ -22,17 +22,7 @@ export const Board: Columns = {
 					{ title: "Front", ...getRandomColors() },
 				],
 			},
-			{
-				id: uuidv4(),
-				title: "Admin Panel Back-end",
-				description: "Lorem ipsum dolor sit amet ..",
-				priority: "low",
-				deadline: 50,
-				tags: [
-					{ title: "Test", ...getRandomColors() },
-					{ title: "Front", ...getRandomColors() },
-				],
-			},
+			
 		],
 	},
 	pending: {
@@ -40,23 +30,10 @@ export const Board: Columns = {
 		items: [
 			{
 				id: uuidv4(),
-				title: "Admin Panel Back-end",
-				description: "Lorem ipsum dolor sit amet ..",
+				title: "Back-end",
+				description: "NodeJs backend and API calls",
 				priority: "high",
 				deadline: 50,
-				tags: [
-					{ title: "Test", ...getRandomColors() },
-					{ title: "Front", ...getRandomColors() },
-				],
-			},
-			{
-				id: uuidv4(),
-				title: "Admin Panel Front-end",
-				description: "Lorem ipsum dolor sit amet ..",
-				priority: "low",
-				deadline: 50,
-				image: taskImage,
-				alt: "task image",
 				tags: [
 					{ title: "Test", ...getRandomColors() },
 					{ title: "Front", ...getRandomColors() },
@@ -69,8 +46,8 @@ export const Board: Columns = {
 		items: [
 			{
 				id: uuidv4(),
-				title: "Admin Panel Front-end",
-				description: "Lorem ipsum dolor sit amet ..",
+				title: "Backend frontend functionalities",
+				description: "Yess ..",
 				priority: "medium",
 				deadline: 50,
 				image: taskImage3,
@@ -87,21 +64,10 @@ export const Board: Columns = {
 		items: [
 			{
 				id: uuidv4(),
-				title: "Admin Panel Front-end",
-				description: "Lorem ipsum dolor sit amet ..",
-				priority: "low",
-				deadline: 50,
-				tags: [
-					{ title: "Test", ...getRandomColors() },
-					{ title: "Front", ...getRandomColors() },
-				],
-			},
-			{
-				id: uuidv4(),
-				title: "Admin Panel Back-end",
-				description: "Lorem ipsum dolor sit amet ..",
+				title: "Backend Setup",
+				description: "Will be updated and made till tonight",
 				priority: "medium",
-				deadline: 50,
+				deadline: 360,
 				tags: [
 					{ title: "Test", ...getRandomColors() },
 					{ title: "Front", ...getRandomColors() },
@@ -114,8 +80,8 @@ export const Board: Columns = {
 		items: [
 			{
 				id: uuidv4(),
-				title: "Admin Panel Front-end",
-				description: "Lorem ipsum dolor sit amet ..",
+				title: "Frontend Setup",
+				description: "Done with the Dnd functionality",
 				priority: "high",
 				deadline: 50,
 				image: taskImage,
